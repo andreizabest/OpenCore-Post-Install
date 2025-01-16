@@ -58,6 +58,8 @@ Things to keep in mind:
 
 * BusID is a unique value and cannot be used by multiple entries
 * Connector-type values are the same as discussed in the [Connector-type patching page](./connector.md)
+* Only certain BusID's are permitted based on the connector type
+  ** test
 
 ## Mapping the video ports
 
@@ -232,3 +234,5 @@ When done, you should get something similar:
 ![](../../images/gpu-patching/path-done.png)
 
 And as mentioned before, if this combo doesn't work, increment port 1's BusID and if that doesn't work disable port 1's busID and try port 2 and so forth.
+
+
